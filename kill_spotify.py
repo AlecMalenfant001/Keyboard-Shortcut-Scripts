@@ -1,10 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env python3
 import os
 from playsound import playsound
 
 def kill_spotify():
     # play soundeffect
-    playsound('sfx/kill.wav')
+    playsound('/sfx/kill.wav')
 
     #kill program
     os.system("pkill spotify")
