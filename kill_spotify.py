@@ -4,7 +4,7 @@ from playsound import playsound
 
 def kill_spotify():
     # play soundeffect
-    playsound('/home/alec/Scripts/sfx/kill.wav')
+    playsound('sfx/kill.wav')
 
     #kill program
     os.system("pkill spotify")

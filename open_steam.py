@@ -5,7 +5,7 @@ from playsound import playsound
 
 def open_steam():
      # play soundeffect
-    playsound('/home/alec/Scripts/sfx/triangle.wav')
+    playsound('sfx/triangle.wav')
 
     #Open Firefox using the default system command
     os.system("steam")

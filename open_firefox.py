@@ -5,7 +5,7 @@ from playsound import playsound
 
 def open_firefox():
     # play soundeffect
-    playsound('/home/alec/Scripts/sfx/square.wav')
+    playsound('sfx/square.wav')
 
     #Opens Firefox using the default system command.
     os.system("firefox")
