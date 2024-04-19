@@ -1,3 +1,4 @@
+#!/bin/bash
 import os
 from playsound import playsound
 
